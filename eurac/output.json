@@ -1,0 +1,327 @@
+{
+    "product": {
+        "@Type": "Normalized Radar Backscatter",
+        "DocumentIdentifier": "CARD4L_Metadata-specification_Normalised_Radar_Backscatter-v5.0",
+        "DataCollectionTime": {
+            "NumberOfAcquisitions": "1",
+            "FirstAcquistionDate": "2019-09-17T08:33:31.300452",
+            "LastAcquistitionDate": "2019-09-17T08:33:56.299305"
+        },
+        "SourceAttributes": {
+            "@acqID": "1",
+            "SourceDataRepository": {
+                "@type": "URL",
+                "#text": "s3://sentinel-s1-l1c/GRD/2019/9/17/IW/SH/S1A_IW_GRDH_1SSH_20190917T083331_20190917T083356_029058_034C2E_07F6"
+            },
+            "SatelliteName": "Sentinel-1",
+            "Instrument": "Synthetic Aperture Radar",
+            "SourceDataAcquistionTime": {
+                "StartTime": "2019-09-17T08:33:31.300452",
+                "EndTime": "2019-09-17T08:33:56.299305"
+            },
+            "AcquisitionParameters": {
+                "RadarBand": "C",
+                "RadarCenterFrequency": {
+                    "@units": "Hz",
+                    "#text": "5.40500045433435e+09"
+                },
+                "ObservationMode": "IW",
+                "Polarizations": "HH",
+                "AntennaPointing": "Right",
+                "BeamID": "TOPS"
+            },
+            "OrbitInformation": {
+                "PassDirection": "ASCENDING",
+                "OrbitDataSource": "RESORB",
+                "OrbitDataFile": "S1A_OPER_AUX_RESORB_OPOD_20190917T092453_V20190917T052323_20190917T084053.EOF",
+                "PlatformHeading": {
+                    "@units": "deg",
+                    "#text": "-1.252027173623213e+01"
+                },
+                "OrbitMeanAltitude": {
+                    "@units": "km",
+                    "#text": "693"
+                }
+            },
+            "SourceProcParam": {
+                "ProcessingFacility": "Copernicus S1 Core Ground Segment - UPA",
+                "ProcessingDate": "2019-09-17T09:32:59.096913",
+                "SoftwareVersion": "Sentinel-1 IPF, 003.10",
+                "ProductID": "S1A_IW_GRDH_1SSH_20190917T083331_20190917T083356_029058_034C2E_07F6",
+                "ProductLevel": "GRD",
+                "AzumuthNumberOfLooks": "1",
+                "RangeNumberOfLooks": "5"
+            },
+            "ImageAttributes": {
+                "ProductGeometry": "Ground range",
+                "AzimuthPixelSpacing": {
+                    "@units": "m",
+                    "#text": "1.000000e+01"
+                },
+                "RangePixelSpacing": {
+                    "@units": "m",
+                    "#text": "1.000000e+01"
+                },
+                "AzimuthResolution": {
+                    "@units": "m",
+                    "#text": "22.5/22.6/22.6"
+                },
+                "RangeResolution": {
+                    "@units": "m",
+                    "#text": "20.4/20.3/20.5"
+                },
+                "IncAngleNearRange": {
+                    "@units": "deg",
+                    "#text": "30.21513"
+                },
+                "IncAngleFarRange": {
+                    "@units": "deg",
+                    "#text": "45.66679561424327"
+                },
+                "SensorCalibration": {
+                    "@type": "URL",
+                    "#text": "https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-1-sar/sar-instrument/calibration"
+                }
+            },
+            "PerformanceIndicators": {
+                "@type": "URL",
+                "NoiseEquivalentIntensity": {
+                    "@type": "Sigma0",
+                    "@units": "dB",
+                    "#text": "-22 to -30"
+                },
+                "#text": "https://sentinel.esa.int/documents/247904/2142675/Thermal-Denoising-of-Products-Generated-by-Sentinel-1-IPF"
+            }
+        },
+        "ProductAttributes": {
+            "DataAccess": {
+                "ProcessingFacility": "Sentinel Hub, Sinergise",
+                "ProcessingTime": "2020-11-17T16:02:09.500899",
+                "SoftwareVersion": "Batch API, v1.0",
+                "RepositoryURL": {
+                    "@type": "URL",
+                    "#text": "S3://s3-bucket/Australia_SH_products/S26E149/2019/09/17/034C2E"
+                }
+            },
+            "AncillaryData": {
+                "@DEM": "Copernicus DEM, GLO-30",
+                "@EGM": "EGM2008, 1x1 minute grid in WGS84"
+            },
+            "ProductSampleSpacing": {
+                "ProductColumnSpacing": {
+                    "@units": "deg",
+                    "#text": "0.0002"
+                },
+                "ProductRowSpacing": {
+                    "@units": "deg",
+                    "#text": "0.0002"
+                }
+            },
+            "Filtering": {
+                "FilterApplied": "false"
+            },
+            "GeographicalBoundingBox": [
+                {
+                    "@corner": "UL",
+                    "Latitude": {
+                        "@units": "deg",
+                        "#text": "-25.0"
+                    },
+                    "Longitude": {
+                        "@units": "deg",
+                        "#text": "149.0"
+                    }
+                },
+                {
+                    "@corner": "UR",
+                    "Latitude": {
+                        "@units": "deg",
+                        "#text": "-25.0"
+                    },
+                    "Longitude": {
+                        "@units": "deg",
+                        "#text": "150.0"
+                    }
+                },
+                {
+                    "@corner": "LL",
+                    "Latitude": {
+                        "@units": "deg",
+                        "#text": "-26.0"
+                    },
+                    "Longitude": {
+                        "@units": "deg",
+                        "#text": "149.0"
+                    }
+                },
+                {
+                    "@corner": "LR",
+                    "Latitude": {
+                        "@units": "deg",
+                        "#text": "-26.0"
+                    },
+                    "Longitude": {
+                        "@units": "deg",
+                        "#text": "150.0"
+                    }
+                }
+            ],
+            "GeographicalExtent": [
+                {
+                    "@corner": "UL",
+                    "Latitude": {
+                        "@units": "deg",
+                        "#text": "-25.0"
+                    },
+                    "Longitude": {
+                        "@units": "deg",
+                        "#text": "149.31237461749706"
+                    }
+                },
+                {
+                    "@corner": "UR",
+                    "Latitude": {
+                        "@units": "deg",
+                        "#text": "-25.0"
+                    },
+                    "Longitude": {
+                        "@units": "deg",
+                        "#text": "150.0"
+                    }
+                },
+                {
+                    "@corner": "LL",
+                    "Latitude": {
+                        "@units": "deg",
+                        "#text": "-26.0"
+                    },
+                    "Longitude": {
+                        "@units": "deg",
+                        "#text": "149.31237461749706"
+                    }
+                },
+                {
+                    "@corner": "LR",
+                    "Latitude": {
+                        "@units": "deg",
+                        "#text": "-26.0"
+                    },
+                    "Longitude": {
+                        "@units": "deg",
+                        "#text": "150.0"
+                    }
+                }
+            ],
+            "ProductImageSize": {
+                "NumberLines": "5000",
+                "NumPixelsPerLine": "5000",
+                "HeaderSize": {
+                    "@units": "bytes",
+                    "#text": "0"
+                },
+                "NumBorderPixels": "0"
+            },
+            "PixelCoordinateConvention": "pixel centre",
+            "CoordinateReferenceSystem": "EPSG:4326",
+            "PerPixelMetadata": {
+                "DataMask": {
+                    "FileName": "s1_nrb_034C2E_S26E149_2019_09_17_MASK.tif",
+                    "SampleType": "Mask",
+                    "DataFormat": "geotiff",
+                    "DataType": "UINT",
+                    "BitsPerSample": "8",
+                    "ByteOrder": "Little Endian",
+                    "BitValues": {
+                        "NoData": "0",
+                        "ValidData": "1",
+                        "InvalidData": "0"
+                    }
+                },
+                "LocalContributingArea": {
+                    "FileName": "s1_nrb_034C2E_S26E149_2019_09_17_AREA.tif",
+                    "SampleType": {
+                        "@units": "unitless",
+                        "#text": "Normalized Scattering Area"
+                    },
+                    "DataFormat": "geotiff",
+                    "DataType": "FLOAT",
+                    "BitsPerSample": "32",
+                    "ByteOrder": "Little Endian"
+                },
+                "LocalIncAngle": {
+                    "FileName": "s1_nrb_034C2E_S26E149_2019_09_17_ANGLE.tif",
+                    "SampleType": {
+                        "@units": "degrees / 360 * 254",
+                        "#text": "Angle"
+                    },
+                    "DataFormat": "geotiff",
+                    "NoDataValue": "255",
+                    "DataType": "FLOAT",
+                    "BitsPerSample": "8",
+                    "ByteOrder": "Little Endian"
+                }
+            },
+            "BackscatterMeasurementData": {
+                "BackscatterMeasurement": "Gamma-0",
+                "BackscatterConvention": "linear power",
+                "Polarization": "HH",
+                "FileName": "s1_nrb_034C2E_S26E149_2019_09_17_HH.tif",
+                "DataFormat": "geotiff",
+                "DataType": "FLOAT",
+                "BitsPerSample": "32",
+                "ByteOrder": "Little Endian"
+            },
+            "BackscatterConversionEq": {
+                "@units": "dB",
+                "#text": "10*log10(DN)"
+            },
+            "NoiseRemoval": {
+                "NoiseRemovalApplied": "true",
+                "NRAlgorithm": {
+                    "@type": "URL",
+                    "#text": "https://sentinel.esa.int/web/sentinel/radiometric-calibration-of-level-1-products"
+                }
+            },
+            "RadiometricTerrainCorrections": {
+                "RTCAlgorithm": {
+                    "@type": "URL",
+                    "#text": "https://www.geo.uzh.ch/microsite/rsl-documents/research/publications/peer-reviewed-articles/201108-TGRS-Small-tcGamma-3809999360/201108-TGRS-Small-tcGamma.pdf"
+                },
+                "DEMOversamplingFactor": "2.0",
+                "DemExpansionPercentage": "1"
+            },
+            "GeometricCorrection": {
+                "DigitalElevationModel": {
+                    "@dem": "Surface",
+                    "DEMReference": {
+                        "@type": "URL",
+                        "#text": "https://spacedata.copernicus.eu/web/cscda/dataset-details?articleId=394198"
+                    },
+                    "DEMType": "GLO-30",
+                    "DEMResampling": "bilinear",
+                    "EGMReference": {
+                        "@type": "URL",
+                        "#text": "https://earth-info.nga.mil/GandG/wgs84/gravitymod/egm2008/egm08_wgs84.html"
+                    },
+                    "EGMType": "EGM2008, 1x1 minute grid in WGS84",
+                    "EGMResampling": "bilinear"
+                },
+                "GeoCorrAccuracy": {
+                    "NorthernRMSE": {
+                        "@units": "m",
+                        "#text": "N/A"
+                    },
+                    "EasternRMSE": {
+                        "@units": "m",
+                        "#text": "N/A"
+                    },
+                    "AccuracyReference": {
+                        "@type": "URL",
+                        "#text": "https://www.mdpi.com/2072-4292/9/6/607"
+                    }
+                },
+                "GriddingConvention": "pixel center"
+            }
+        }
+    }
+}
